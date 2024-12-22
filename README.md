@@ -9,3 +9,7 @@ Namun, kemajuan teknologi kini memungkinkan deteksi dini diabetes dengan bantuan
 
 ### ✨Dataset✨
 Proyek ini menggunakan dataset Diabetes Prediction Dataset yang diambil dari platform Kaggle [Diabetes Prediction Dataset - Kaggle](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset). Dataset ini berisi sekitar 100.000 data medis dan demografi pasien, mencakup informasi penting seperti usia, jenis kelamin, indeks massa tubuh (BMI), riwayat hipertensi, penyakit jantung, kebiasaan merokok, kadar HbA1c, dan kadar glukosa darah, serta status diabetes pasien (positif atau negatif). Dataset ini dapat digunakan untuk membangun model pembelajaran mesin yang dapat memprediksi kemungkinan seseorang mengidap diabetes berdasarkan riwayat medis dan informasi demografis mereka. Dengan demikian, dataset ini memiliki potensi besar untuk mendukung pencegahan dini serta perencanaan perawatan yang lebih tepat dan personal.
+
+### ✨Algorirtma Classification✨
+- Random Forest
+![Random Forest](https://aiml.com/wp-content/uploads/2023/03/random-forest-classifier-3.png)
