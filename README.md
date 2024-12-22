@@ -24,6 +24,7 @@ Random Forest Classification adalah metode pembelajaran mesin yang digunakan unt
 XGBoost Classification adalah salah satu algoritma pembelajaran mesin paling kuat dan efisien yang digunakan untuk tugas klasifikasi. Dengan menggabungkan kekuatan beberapa model lemah (pohon keputusan) melalui teknik boosting, XGBoost berfokus pada perbaikan kesalahan yang dibuat oleh model sebelumnya, sehingga menghasilkan prediksi yang lebih akurat. Setiap pohon yang ditambahkan bekerja untuk mengoreksi kesalahan dari pohon sebelumnya, membuat model semakin kuat. Keunggulan XGBoost terletak pada kemampuannya untuk menangani data besar dengan cepat dan akurat, serta kemampuannya menghindari overfitting melalui regularisasi. Berkat kinerjanya yang luar biasa, XGBoost sering menjadi pilihan utama dalam kompetisi machine learning dan aplikasi dunia nyata.
 
 ### ✨Preprocessing, EDA, dan Train-split✨
+![Data Penderita Diabetes](UAP_Prediksi_Diabetes/Asset/Perbandingan Penderita Diabetes.png)
 
 
   
