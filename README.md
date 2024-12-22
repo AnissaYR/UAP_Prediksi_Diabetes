@@ -12,6 +12,6 @@ Proyek ini menggunakan dataset Diabetes Prediction Dataset yang diambil dari pla
 
 ### ✨Algorirtma Classification✨
 - *Random Forest Classification*
-![Random Forest]([https://aiml.com/wp-content/uploads/2023/03/random-forest-classifier-3.png](https://www.researchgate.net/publication/337407116/figure/fig1/AS:827479790993408@1574297964140/Architecture-of-the-Random-Forest-algorithm.jpg))
+![Random Forest](https://www.researchgate.net/publication/337407116/figure/fig1/AS:827479790993408@1574297964140/Architecture-of-the-Random-Forest-algorithm.jpg)
 
 Random Forest Classification adalah metode pembelajaran mesin yang digunakan untuk mengklasifikasikan data dengan cara membangun sejumlah pohon keputusan (decision trees) yang saling independen, kemudian menggabungkan hasil prediksi dari masing-masing pohon untuk menghasilkan keputusan akhir. Tujuan utamanya adalah untuk meningkatkan akurasi dan mengurangi risiko overfitting, yang sering terjadi pada pohon keputusan tunggal. Prosesnya dimulai dengan membangun banyak pohon keputusan dengan menggunakan sampel acak dari data pelatihan, dan setiap pohon memberikan prediksi berdasarkan fitur yang relevan. Hasil dari semua pohon ini kemudian digabungkan untuk memberikan prediksi yang lebih stabil dan akurat, menjadikan Random Forest sangat efektif untuk menangani dataset besar dengan banyak variabel.
