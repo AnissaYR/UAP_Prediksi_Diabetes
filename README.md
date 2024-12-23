@@ -80,6 +80,17 @@ Dalam proyek ini, label **0** menunjukkan "Tidak Diabetes" dan label **1** menun
 - **True Negative (TN)**: Data yang tidak menderita diabetes dan diprediksi tidak diabetes.
 
 ## ✨Tampilan Deploy Prediksi Diabetes✨
+![XGB](assets/images/Screenshot 2024-12-23 121201.png)
+![XGB](assets/images/Screenshot 2024-12-23 121208.png)
+![XGB](assets/images/Screenshot 2024-12-23 121248.png)
 
+Proyek Hasil ini akan menunjukan apakah anda seorang penderita dari inputan usia, BMI, riwayat kesehatan, serta kadar gula darah sehingga menapilkan Prediksi anda terkena Diabetes Positif atau negatif.
 
+Nanti ada visualisasi jika Diabetes Negatif gambarnya:
   
+![Diabetes Negatif](https://student-activity.binus.ac.id/tfi/wp-content/uploads/sites/41/2021/05/MENJAGA-POLA-HIDUP-SEHAT-DI-MASA-PANDEMI-COVID-19.jpg)
+
+visualisasi jika Diabetes Positif gambarnya:
+
+![Diabetes Positif](https://i0.wp.com/www.rhesusnegative.net/staynegative/wp-content/uploads/2015/01/Figure1diabetes.jpg)
+
