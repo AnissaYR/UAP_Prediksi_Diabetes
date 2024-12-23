@@ -1,3 +1,7 @@
+- *Nama: Anissa Yulidha Rodiyah*
+- *NIM: 202110370311304*
+- *Matkul: UAP Pembelajaran Mesin A*
+
 # ✨ Prediksi Penderita Diabetes ✨
 ## Klasifikasi Otomatis Penderita Diabetes dengan Random Forest dan XGBoost
 
