@@ -45,7 +45,8 @@ Hasil classification report setelah SMOTE menunjukkan akurasi tetap sebesar 97%,
 Kesimpulannya, penerapan SMOTE membantu model lebih seimbang dalam mendeteksi kasus positif diabetes tanpa mengorbankan akurasi keseluruhan.
 
 #### ✨Confusion Matrix Random Forest✨
-
+![CMRF](assets/images/Confusion_Matrix_Random_Forest_Sebelum_SMOTE.png)
+![CMRF](assets/images/Confusion_Matrix_Random_Forest_Sesudah_SMOTE.png)
 
 
 
