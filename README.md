@@ -48,7 +48,13 @@ Kesimpulannya, penerapan SMOTE membantu model lebih seimbang dalam mendeteksi ka
 ![CMRF](assets/images/Confusion_Matrix_Random_Forest_Sebelum_SMOTE.png)
 ![CMRF](assets/images/Confusion_Matrix_Random_Forest_Sesudah_SMOTE.png)
 
+#### ✨Model Random Forest.sav✨
+Model Random Forest yang telah dilatih tersedia untuk diunduh. Karena ukuran file yang cukup besar (sekitar 66,6 MB), Anda dapat mengunduhnya langsung melalui tautan di bawah ini:
+[random_forest_model.sav](https://drive.google.com/drive/folders/1Vc6w4cCXNb2MD2t5zP8QpJJFVUxAcInC?usp=sharing)
+
 ### ✨*XGBoost Classification*✨
+
+
 
 
   
