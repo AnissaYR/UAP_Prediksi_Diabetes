@@ -37,7 +37,8 @@ Distribusi data menunjukkan ketimpangan yang signifikan, dengan 91.500 individu 
 Dengan pembagian data train-test 80:20, hasil classification report sebelum SMOTE menunjukkan akurasi sebesar 97%.
 
 - Sesudah SMOTE
-  
+SMOTE digunakan untuk menyeimbangkan kelas dengan membuat sampel sintetis kelas minoritas hingga 25% dari jumlah kelas mayoritas, sehingga mencapai perbandingan 1:4.
+
 ![RR_SBS](assets/images/Random_Forest_Sebelum_SMOTE.png)
 
 Hasil classification report setelah SMOTE menunjukkan akurasi tetap sebesar 97%, dengan peningkatan keseimbangan dalam mendeteksi kelas 1 (positif diabetes) meskipun recall mencapai 71%."
@@ -48,13 +49,37 @@ Kesimpulannya, penerapan SMOTE membantu model lebih seimbang dalam mendeteksi ka
 ![CMRF](assets/images/Confusion_Matrix_Random_Forest_Sebelum_SMOTE.png)
 ![CMRF](assets/images/Confusion_Matrix_Random_Forest_Sesudah_SMOTE.png)
 
+Dalam proyek ini, label **0** menunjukkan "Tidak Diabetes" dan label **1** menunjukkan "Diabetes." Berikut adalah penjelasan confusion matrix:
+
+- **True Positive (TP)**: Data yang benar-benar menderita diabetes dan diprediksi sebagai diabetes.
+- **False Negative (FN)**: Data yang benar-benar menderita diabetes tetapi diprediksi tidak diabetes.
+- **False Positive (FP)**: Data yang tidak menderita diabetes tetapi diprediksi sebagai diabetes.
+- **True Negative (TN)**: Data yang tidak menderita diabetes dan diprediksi tidak diabetes.
+
 #### ✨Model Random Forest.sav✨
 Model Random Forest yang telah dilatih tersedia untuk diunduh. Karena ukuran file yang cukup besar (sekitar 66,6 MB), Anda dapat mengunduhnya langsung melalui tautan di bawah ini:
 [random_forest_model.sav](https://drive.google.com/drive/folders/1Vc6w4cCXNb2MD2t5zP8QpJJFVUxAcInC?usp=sharing)
 
 ### ✨*XGBoost Classification*✨
+![XGB](assets/images/Class_Imbalance_XGBoost.png)
 
+Menghitung scale_pos_weight bertujuan untuk menyeimbangkan bobot kelas mayoritas dan minoritas agar XGBoost tidak bias terhadap kelas mayoritas.
 
+![XGB](assets/images/XGBoost_CR.png)
+
+Classification report menunjukkan bahwa dengan train-test split 80:20, model XGBoost memiliki akurasi 92%, performa kuat pada kelas mayoritas (f1-score 0.96), namun performa terbatas pada kelas minoritas (f1-score 0.66).
+
+#### ✨Confusion Matrix XGBoost✨
+![XGB](assets/images/Confusion_Matrix_XGBoost.png)
+
+Dalam proyek ini, label **0** menunjukkan "Tidak Diabetes" dan label **1** menunjukkan "Diabetes." Berikut adalah penjelasan confusion matrix:
+
+- **True Positive (TP)**: Data yang benar-benar menderita diabetes dan diprediksi sebagai diabetes.
+- **False Negative (FN)**: Data yang benar-benar menderita diabetes tetapi diprediksi tidak diabetes.
+- **False Positive (FP)**: Data yang tidak menderita diabetes tetapi diprediksi sebagai diabetes.
+- **True Negative (TN)**: Data yang tidak menderita diabetes dan diprediksi tidak diabetes.
+
+## ✨Tampilan Deploy Prediksi Diabetes✨
 
 
   
