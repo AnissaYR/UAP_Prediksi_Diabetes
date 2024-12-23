@@ -86,11 +86,11 @@ Dalam proyek ini, label **0** menunjukkan "Tidak Diabetes" dan label **1** menun
 
 Proyek Hasil ini akan menunjukan apakah anda seorang penderita dari inputan usia, BMI, riwayat kesehatan, serta kadar gula darah sehingga menapilkan Prediksi anda terkena Diabetes Positif atau negatif.
 
-Nanti ada visualisasi jika Diabetes Negatif gambarnya:
+Nanti ada visualisasi jika Diabetes Negatif (Tandanya Sehat) gambarnya:
   
 ![Diabetes Negatif](https://student-activity.binus.ac.id/tfi/wp-content/uploads/sites/41/2021/05/MENJAGA-POLA-HIDUP-SEHAT-DI-MASA-PANDEMI-COVID-19.jpg)
 
-visualisasi jika Diabetes Positif gambarnya:
+visualisasi jika Diabetes Positif (Tandanya Terkena Penyakit Diabetes butuh waspada) gambarnya:
 
 ![Diabetes Positif](https://i0.wp.com/www.rhesusnegative.net/staynegative/wp-content/uploads/2015/01/Figure1diabetes.jpg)
 
