@@ -27,10 +27,26 @@ XGBoost Classification adalah salah satu algoritma pembelajaran mesin paling kua
 
 ![Perbandingan](assets/images/Perbandingan_Penderita_Diabetes.png)
 
+Distribusi data menunjukkan ketimpangan yang signifikan, dengan 91.500 individu tanpa diabetes dibandingkan hanya 8.500 dengan diabetes. Hal ini mengindikasikan bahwa prediksi dalam proyek ini kemungkinan besar akan lebih sulit untuk mendeteksi kasus positif diabetes secara akurat karena dominasi data non-diabetes, walaupun meskipun model prediksi mungkin mencapai akurasi tinggi.
+
 #### *Random Forest Classification*
 - Sebelum SMOTE
   
-![RR_SM](assets/images/Random_Forest_Sebelum_SMOTE.png)
+![RR_SBS](assets/images/Random_Forest_Sebelum_SMOTE.png)
+
+Dengan pembagian data train-test 80:20, hasil classification report sebelum SMOTE menunjukkan akurasi sebesar 97%.
+
+- Sesudah SMOTE
+  
+![RR_SBS](assets/images/Random_Forest_Sebelum_SMOTE.png)
+
+Hasil classification report setelah SMOTE menunjukkan akurasi tetap sebesar 97%, dengan peningkatan keseimbangan dalam mendeteksi kelas 1 (positif diabetes) meskipun recall mencapai 71%."
+
+Kesimpulannya, penerapan SMOTE membantu model lebih seimbang dalam mendeteksi kasus positif diabetes tanpa mengorbankan akurasi keseluruhan.
+
+#### ✨Confusion Matrix Random Forest✨
+
+
 
 
   
